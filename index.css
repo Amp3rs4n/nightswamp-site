@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fireflies {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+.fireflies li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 5px;
+  height: 5px;
+  background: #adff2f;
+  animation: float 10s infinite ease-in-out;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #adff2f, 0 0 20px #adff2f;
+}
+@keyframes float {
+  0% { transform: translateY(0) translateX(0); opacity: 1; }
+  50% { transform: translateY(-20px) translateX(10px); opacity: 0.5; }
+  100% { transform: translateY(0) translateX(0); opacity: 1; }
+}

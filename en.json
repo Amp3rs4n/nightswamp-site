@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "title": "NightSwamp Community",
+    "tagline": "Where night and nature meet gaming",
+    "button": "Join our Discord"
+  },
+  "about": {
+    "heading": "About Us",
+    "text": "NightSwamp is a cozy community for gamers of all types. Casual or hardcore, you're welcome here!"
+  },
+  "news": {
+    "heading": "Latest News",
+    "item1_title": "Community Event this Saturday",
+    "item1_body": "Join us for a game night event on Discord!"
+  }
+}
